@@ -1,7 +1,9 @@
-# Popup
+# IdleTray-Mac
 
-Popup project is a demo with custom popover window appearing from the icon in the Mac OS X status bar.
+IdleTray is Idle Client for fireworks server. Send idle time of mac user to fireserver server for license management. 
+
+The base of the project is forked from PopUp demo [https://github.com/shpakovski/Popup] 
 
 # License
 
-Popup is licensed under the BSD license.
+IdleTray is licensed under the BSD license.
