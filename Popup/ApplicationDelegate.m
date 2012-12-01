@@ -36,7 +36,7 @@ void *kContextActivePanel = &kContextActivePanel;
     self.menubarController = [[MenubarController alloc] init];
     
     //set timer to send updates to server
-    self.timer = [NSTimer scheduledTimerWithTimeInterval: 15.0
+    self.timer = [NSTimer scheduledTimerWithTimeInterval: 600.0
                                 target: self
                                 selector:@selector(onTick)
                                 userInfo: nil repeats:YES];

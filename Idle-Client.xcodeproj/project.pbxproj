@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BF08AA8016690B6F004EC828 /* BlackStar.png in Resources */ = {isa = PBXBuildFile; fileRef = BF08AA7F16690B6F004EC828 /* BlackStar.png */; };
+		BF08AA8016690B6F004EC828 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BF08AA7F16690B6F004EC828 /* Icon.png */; };
 		BFE094DC165E954A0072A2B9 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFE094DB165E954A0072A2B9 /* IOKit.framework */; };
 		DD4F7C0913C30F9F00825C6E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD4F7C0813C30F9F00825C6E /* Cocoa.framework */; };
 		DD4F7C1513C30F9F00825C6E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4F7C1413C30F9F00825C6E /* main.m */; };
@@ -25,7 +25,7 @@
 
 /* Begin PBXFileReference section */
 		BF08AA771668C62A004EC828 /* Popup.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Popup.entitlements; path = Popup/Popup.entitlements; sourceTree = "<group>"; };
-		BF08AA7F16690B6F004EC828 /* BlackStar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BlackStar.png; sourceTree = "<group>"; };
+		BF08AA7F16690B6F004EC828 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		BFE094DB165E954A0072A2B9 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = ../../../../System/Library/Frameworks/IOKit.framework; sourceTree = "<group>"; };
 		DD4F7C0413C30F9F00825C6E /* Idle-Client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Idle-Client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD4F7C0813C30F9F00825C6E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
@@ -69,7 +69,6 @@
 		DD4F7BF913C30F9F00825C6E = {
 			isa = PBXGroup;
 			children = (
-				BF08AA7F16690B6F004EC828 /* BlackStar.png */,
 				BF08AA771668C62A004EC828 /* Popup.entitlements */,
 				DD4F7C0E13C30F9F00825C6E /* Sources */,
 				DD4F7C2813C3123E00825C6E /* User Interface */,
@@ -166,6 +165,7 @@
 		DD4F7C4813C322D800825C6E /* Graphics */ = {
 			isa = PBXGroup;
 			children = (
+				BF08AA7F16690B6F004EC828 /* Icon.png */,
 				DD4F7C4913C322FA00825C6E /* Status.png */,
 				DD4F7C4A13C322FA00825C6E /* StatusHighlighted.png */,
 			);
@@ -226,7 +226,7 @@
 				DD4F7C4113C31B4A00825C6E /* Panel.xib in Resources */,
 				DD4F7C4B13C322FA00825C6E /* Status.png in Resources */,
 				DD4F7C4C13C322FA00825C6E /* StatusHighlighted.png in Resources */,
-				BF08AA8016690B6F004EC828 /* BlackStar.png in Resources */,
+				BF08AA8016690B6F004EC828 /* Icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
